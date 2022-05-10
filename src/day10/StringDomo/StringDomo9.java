@@ -7,12 +7,12 @@ public class StringDomo9 {
         Scanner sc = new Scanner(System.in);
         int money;
         while (true) {
-            System.out.println("ÇëÊäÈëÒ»¸ö×Ö·û´®£º");
+            System.out.println("è¯·è¾“å…¥ä¸€ä¸ªå­—ç¬¦ä¸²ï¼š");
             money = sc.nextInt();
             if (money >= 0 && money <= 9999999) {
                 break;
             } else {
-                System.out.println("ÊäÈëÎÞÐ§");
+                System.out.println("è¾“å…¥æ— æ•ˆ");
             }
 
         }
@@ -29,12 +29,12 @@ public class StringDomo9 {
         }
         int count = 7 - moneyStr.length();
         for (int i = 0; i < count; i++) {
-            moneyStr = "Áã" + moneyStr;
+            moneyStr = "é›¶" + moneyStr;
         }
-        //¶¨ÒåÒ»¸öµ¥Î»Êý×é
+        //å®šä¹‰ä¸€ä¸ªå•ä½æ•°ç»„
         int len = moneyStr.length();
         String result = "";
-        String[] arr = { "°Û", "Ê°",  "Íò", "Çª","°Û", "Ê°", "Ôª"};
+        String[] arr = { "ä½°", "æ‹¾",  "ä¸‡", "ä»Ÿ","ä½°", "æ‹¾", "å…ƒ"};
         for (int i = 0; i < len ; i++) {
             char c = moneyStr.charAt(i);
             result = result+ c + arr[i];
@@ -42,7 +42,7 @@ public class StringDomo9 {
         System.out.println(result);
     }
     public static String getCaptialNumber(int number) {
-        String[] arr = {"Áã", "Ò¼", "·¡", "Èþ", "ËÁ", "Îé", "Â½", "Æâ", "°Æ", "¾Á"};
+        String[] arr = {"é›¶", "å£¹", "è´°", "å", "è‚†", "ä¼", "é™†", "æŸ’", "æŒ", "çŽ–"};
         return arr[number];
     }
 }

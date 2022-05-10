@@ -6,9 +6,9 @@ public class PhoneTest {
 
         Phone[] arr = new Phone[3];
 
-        Phone p1 = new Phone("小米", 1999, "白色");
-        Phone p2 = new Phone("魅族", 4999, "蓝色");
-        Phone p3 = new Phone("华为", 3999, "红色");
+        Phone p1 = new Phone("灏忕背", 1999, "鐧借壊");
+        Phone p2 = new Phone("榄呮棌", 4999, "钃濊壊");
+        Phone p3 = new Phone("鍗庝负", 3999, "绾㈣壊");
 
         arr[0] = p1;
         arr[1] = p2;

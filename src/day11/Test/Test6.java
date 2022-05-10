@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public class Test6 {
     public static void main(String[] args) {
         ArrayList<user> list = new ArrayList<>();
-        user u1 = new user("张三","123456","heima001");
-        user u2 = new user("李四","12345678","heima002");
-        user u3 = new user("王五","123456qwer","heima003");
+        user u1 = new user("寮犱笁","123456","heima001");
+        user u2 = new user("鏉庡洓","12345678","heima002");
+        user u3 = new user("鐜嬩簲","123456qwer","heima003");
         list.add(u1);
         list.add(u2);
         list.add(u3);

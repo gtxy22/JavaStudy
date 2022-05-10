@@ -6,7 +6,7 @@ public class loopTest3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int system = sc.nextInt();
-        //±ê¼ÇSystemÊÇ·ñÎªÒ»¸öÖÊÊı
+        //æ ‡è®°Systemæ˜¯å¦ä¸ºä¸€ä¸ªè´¨æ•°
         boolean flag = true;
         for (int i = 2; i <= system -1; i++) {
             if (system % i==0) {
@@ -16,9 +16,9 @@ public class loopTest3 {
             }
         }
         if (flag) {
-            System.out.println("ÊäÈëµÄÊı×ÖÊÇÖÊÊı");
+            System.out.println("è¾“å…¥çš„æ•°å­—æ˜¯è´¨æ•°");
         } else {
-            System.out.println("ÊäÈëµÄÖÊÊı²»ÊÇÒ»¸öÖÊÊı");
+            System.out.println("è¾“å…¥çš„è´¨æ•°ä¸æ˜¯ä¸€ä¸ªè´¨æ•°");
         }
     }
 }

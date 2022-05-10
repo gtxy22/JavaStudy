@@ -7,9 +7,9 @@ public class GoodTest {
 
 
         Goods[] arr = new Goods[3];
-        Goods g1 = new Goods("001", "∆ªπ˚", 5599.0, 100);
-        Goods g2 = new Goods("002", "±£Œ¬±≠", 227.0, 50);
-        Goods g3 = new Goods("002", "Ë€ËΩ", 12.7, 70);
+        Goods g1 = new Goods("001", "ËãπÊûú", 5599.0, 100);
+        Goods g2 = new Goods("002", "‰øùÊ∏©ÊùØ", 227.0, 50);
+        Goods g3 = new Goods("002", "Êû∏Êùû", 12.7, 70);
 
         arr[0] = g1;
         arr[1] = g2;

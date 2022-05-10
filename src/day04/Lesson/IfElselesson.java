@@ -13,7 +13,7 @@ public class IfElselesson {
             case 3:
             case 4:
             case 5:
-                System.out.println("¹¤×÷ÈÕ");
+                System.out.println("å·¥ä½œæ—¥");
 
         }
     }

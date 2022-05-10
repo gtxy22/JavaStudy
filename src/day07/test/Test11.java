@@ -18,7 +18,7 @@ public class Test11 {
             for (int j = 0; j < arr.length -1; j++) {
                 if (arr[j] == redNumber){
                     redCount++;
-                    //Èç¹ûÕÒµ½ÁË£¬¾ÍÌø³öÑ­»·£¬ºóÃæµÄ²»ÓÃÔÙÕÒÁË
+                    //å¦‚æœæ‰¾åˆ°äº†ï¼Œå°±è·³å‡ºå¾ªç¯ï¼Œåé¢çš„ä¸ç”¨å†æ‰¾äº†
                     break;
                 }
             }
@@ -44,28 +44,28 @@ public class Test11 {
         int[] arr = new int[7];
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < 6; i++) {
-            System.out.println("ÇëÊäÈëºìÇòºÅÂë");
+            System.out.println("è¯·è¾“å…¥çº¢çƒå·ç ");
             int redNumber = sc.nextInt();
             if (redNumber >= 1&& redNumber<= 33){
                 boolean flag = contains(arr,redNumber);
                 if(!flag){
                    arr[i] = redNumber;
                 }else {
-                    System.out.println("ÖØ¸´£¬ÇëÖØĞÂÊäÈë");
+                    System.out.println("é‡å¤ï¼Œè¯·é‡æ–°è¾“å…¥");
                 }
             }else {
-                System.out.println("ÊäÈëÓĞÎó£¬ÇëÖØĞÂÊäÈë");
+                System.out.println("è¾“å…¥æœ‰è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
             }
 
         }
-        System.out.println("ÇëÊäÈëÀ¶ÇòºÅÂë");
+        System.out.println("è¯·è¾“å…¥è“çƒå·ç ");
         while (true){
             int blueNumber = sc.nextInt();
             if(blueNumber >= 1 && blueNumber <= 16){
                 arr[6] = blueNumber;
                 break;
             } else {
-                System.out.println("ÊäÈëÓĞÎó£¬ÇëÖØĞÂÊäÈë");
+                System.out.println("è¾“å…¥æœ‰è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
             }
         }
         return arr;

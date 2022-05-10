@@ -18,7 +18,7 @@ public class Test2 {
                 count++;
             }
         }
-        System.out.println("Ò»¹²ÓĞ"+ count +"¸öÖÊÊı");
+        System.out.println("ä¸€å…±æœ‰"+ count +"ä¸ªè´¨æ•°");
 
     }
 }

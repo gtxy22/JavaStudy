@@ -3,11 +3,11 @@ package day06.MethodDomo;
 public class MethodDomo {
     public static void main(String[] args) {
     playGame();
-//        System.out.println("Ïë");
+//        System.out.println("æƒ³");
     }
-    //¶¨ÒåÒ»¸ö·½·¨
+    //å®šä¹‰ä¸€ä¸ªæ–¹æ³•
     public static void playGame(){
-        System.out.println("Ñ¡ÈËÎï");
-        System.out.println("×¼±¸¿ª¾Ö");
+        System.out.println("é€‰äººç‰©");
+        System.out.println("å‡†å¤‡å¼€å±€");
     }
 }

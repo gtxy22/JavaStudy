@@ -14,7 +14,7 @@ public class Test3 {
             }
         }
         Random r = new Random();
-        //定义一个字符串记录最终的结果
+        //瀹氫箟涓�涓瓧绗︿覆璁板綍鏈�缁堢殑缁撴灉
         String res = "";
         for (int i = 0; i < 4; i++) {
             int randomIndex = r.nextInt(chs.length);
@@ -26,7 +26,7 @@ public class Test3 {
         int n = r.nextInt(10);
         res = res + n;
         System.out.println(res);
-        //利用随机索引获取对应元素
+        //鍒╃敤闅忔満绱㈠紩鑾峰彇瀵瑰簲鍏冪礌
     }
 
 }

@@ -4,7 +4,7 @@ import javax.lang.model.element.AnnotationMirror;
 
 public class StringDomo22 {
     public static void main(String[] args) {
-        String talk = "ÄãÍæµÄÌ«ºÃÁË ÏÂ´ÎÇë²»ÒªÍæÁË tmd  ×Ô¼ºÊÇsb»¹Ëµ±ğÈËsb°É£¿mlgb";
+        String talk = "ä½ ç©çš„å¤ªå¥½äº† ä¸‹æ¬¡è¯·ä¸è¦ç©äº† tmd  è‡ªå·±æ˜¯sbè¿˜è¯´åˆ«äººsbå§ï¼Ÿmlgb";
         String[] arr = {"tmd","cnm","sb","mlgb"};
 
         for (int i = 0; i < arr.length; i++) {

@@ -3,18 +3,18 @@ package day9.work.student;
 public class Test {
     public static void main(String[] args) {
         Student[] arr = new Student[3];
-        Student stu1 = new Student(1, "ÕÅÈı", 18);
-        Student stu2 = new Student(2, "ÀîËÄ", 24);
-        Student stu3 = new Student(3, "ÍõÎå", 25);
+        Student stu1 = new Student(1, "å¼ ä¸‰", 18);
+        Student stu2 = new Student(2, "æå››", 24);
+        Student stu3 = new Student(3, "ç‹äº”", 25);
         arr[0] = stu1;
         arr[1] = stu2;
         arr[2] = stu3;
-        Student stu4 = new Student(4, "ÕÔÁù", 25);
+        Student stu4 = new Student(4, "èµµå…­", 25);
         if (contains(stu4.getId(), arr)) {
-            System.out.println("´æÔÚ");
+            System.out.println("å­˜åœ¨");
 
         } else {
-            System.out.println("²»´æÔÚ");
+            System.out.println("ä¸å­˜åœ¨");
             int count = getCount(arr);
             if (count == arr.length) {
                 Student[] newArr = creatNewArr(arr);
@@ -29,7 +29,7 @@ public class Test {
 
 
     }
-    //±éÀústudentÊı×é
+    //éå†studentæ•°ç»„
     public static void printArr(Student[] arr) {
         for (int i = 0; i < arr.length; i++) {
             Student stu = arr[i];
@@ -41,7 +41,7 @@ public class Test {
     public static Student[] creatNewArr(Student[] arr) {
         Student[] newArr = new Student[arr.length +1];
         for (int i = 0; i < arr.length; i++) {
-            //°ÑÀÏÊı×éµÄÔªËØÌí¼Óµ½
+            //æŠŠè€æ•°ç»„çš„å…ƒç´ æ·»åŠ åˆ°
             newArr[i] = arr[i];
         }
         return newArr;

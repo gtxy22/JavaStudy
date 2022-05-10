@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class Test1 {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<>();
-        list.add("µãÔŞÁËÃ»£¿");
-        list.add("ÊÕ²ØÁËÃ»£¿");
-        list.add("×ª·¢ÁËÃ»£¿");
-        list.add("Í¶±ÒÁËÃ»£¿");
+        list.add("ç‚¹èµäº†æ²¡ï¼Ÿ");
+        list.add("æ”¶è—äº†æ²¡ï¼Ÿ");
+        list.add("è½¬å‘äº†æ²¡ï¼Ÿ");
+        list.add("æŠ•å¸äº†æ²¡ï¼Ÿ");
 
         System.out.print("[");
         for (int i = 0; i < list.size(); i++) {

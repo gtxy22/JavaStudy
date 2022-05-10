@@ -3,9 +3,9 @@ package day9.work.student;
 public class Test2 {
     public static void main(String[] args) {
         Student[] arr = new Student[3];
-        Student stu1 = new Student(1, "张三", 18);
-        Student stu2 = new Student(2, "李四", 24);
-        Student stu3 = new Student(3, "王五", 25);
+        Student stu1 = new Student(1, "寮犱笁", 18);
+        Student stu2 = new Student(2, "鏉庡洓", 24);
+        Student stu3 = new Student(3, "鐜嬩簲", 25);
         arr[0] = stu1;
         arr[1] = stu2;
         arr[2] = stu3;
@@ -13,7 +13,7 @@ public class Test2 {
         if (index != -1) {
             arr[index] = null;
         } else{
-            System.out.println("没有找到");
+            System.out.println("娌℃湁鎵惧埌");
 
         }
         for (int i = 0; i < arr.length; i++) {

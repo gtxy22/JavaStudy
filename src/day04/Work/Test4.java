@@ -6,12 +6,12 @@ public class Test4 {
     public static void main(String[] args) {
 
         int x = 12321;
-        //¶¨ÒåÒ»¸öÁÙÊ±±äÁ¿ÓÃÀ´¸øºóÃæ·´¹ıÀ´µÄÊı×ö¶ÔÕÕ
+        //å®šä¹‰ä¸€ä¸ªä¸´æ—¶å˜é‡ç”¨æ¥ç»™åé¢åè¿‡æ¥çš„æ•°åšå¯¹ç…§
         int temp = x;
         int num = 0;
         while (x != 0) {
             int ge = x % 10;
-            //È¥µôÓÒ±ßµÄÊı×Ö
+            //å»æ‰å³è¾¹çš„æ•°å­—
             x = x / 10;
             num = num * 10 +ge ;
         }

@@ -12,15 +12,15 @@ public class StringDomo4 {
         Scanner sc = new Scanner(System.in);
 
         for (int i = 0; i < 3; i++) {
-            System.out.println("ÇëÊäÈëÓÃ»§Ãû£º");
+            System.out.println("è¯·è¾“å…¥ç”¨æˆ·åï¼š");
             String userName = sc.next();
-            System.out.println("ÇëÊäÈëÃÜÂë£º");
+            System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
             String password = sc.next();
             if (userName.equals(rightUserName) && password.equals(rightPassword)) {
-                System.out.println("µÇÂ¼³É¹¦£¡");
+                System.out.println("ç™»å½•æˆåŠŸï¼");
                 break;
             }else {
-                System.out.printf("µÇÂ¼Ê§°Ü£¡Äú»¹Ê£ÏÂ%d´Î»ú»á£¡\n",2-i);
+                System.out.printf("ç™»å½•å¤±è´¥ï¼æ‚¨è¿˜å‰©ä¸‹%dæ¬¡æœºä¼šï¼\n",2-i);
             }
         }
     }

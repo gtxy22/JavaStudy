@@ -6,11 +6,11 @@ public class Test1 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("ÇëÊäÈë»úÆ±Æ±¼Û");
+        System.out.println("è¯·è¾“å…¥æœºç¥¨ç¥¨ä»·");
         int ticker = sc.nextInt();
-        System.out.println("ÇëÊäÈëµ±Ç°µÄÔÂ·Ý");
+        System.out.println("è¯·è¾“å…¥å½“å‰çš„æœˆä»½");
         int month = sc.nextInt();
-        System.out.println("ÇëÊäÈëµ±Ç°¹ºÂòµÄ²ÖÎ» 0 Í·µÈ²Õ 1 ¾­¼Ã²Õ");
+        System.out.println("è¯·è¾“å…¥å½“å‰è´­ä¹°çš„ä»“ä½ 0 å¤´ç­‰èˆ± 1 ç»æµŽèˆ±");
         int soat = sc.nextInt();
         if (month >=1 && month <= 4 )  {
 

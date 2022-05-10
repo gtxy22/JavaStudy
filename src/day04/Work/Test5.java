@@ -2,17 +2,17 @@ package day04.Work;
 
 public class Test5 {
     public static void main(String[] args) {
-        //²»Ê¹ÓÃ³Ë·¨³ı·¨ % À´È·¶¨Êı×ÖÉÌºÍÓàÊı'
-        // ±»³ıÊı
+        //ä¸ä½¿ç”¨ä¹˜æ³•é™¤æ³• % æ¥ç¡®å®šæ•°å­—å•†å’Œä½™æ•°'
+        // è¢«é™¤æ•°
         int num1 = 123;
-//        ³ıÊı
+//        é™¤æ•°
         int num2 = 10;
-//        ÉÌ£¬ÓÃÀ´µİÔö
+//        å•†ï¼Œç”¨æ¥é€’å¢
         int num3 = 0;
         while (num1 > num2){
             num1 -= num2;
             num3++;
         }
-        System.out.println("ÉÌÊÇ" + num3 + " ÓàÊıÊÇ" + num1);
+        System.out.println("å•†æ˜¯" + num3 + " ä½™æ•°æ˜¯" + num1);
     }
 }

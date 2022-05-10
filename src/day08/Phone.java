@@ -14,15 +14,15 @@ public class Phone {
     }
 
     public void call(){
-        System.out.println("´òµç»°");
+        System.out.println("æ‰“ç”µè¯");
     }
     public void playGame(){
-        System.out.println("ÍæÓÎÏ·");
+        System.out.println("ç©æ¸¸æˆ");
     }
 
 
     /**
-     * »ñÈ¡
+     * è·å–
      * @return brand
      */
     public String getBrand() {
@@ -30,7 +30,7 @@ public class Phone {
     }
 
     /**
-     * ÉèÖÃ
+     * è®¾ç½®
      * @param brand
      */
     public void setBrand(String brand) {
@@ -38,7 +38,7 @@ public class Phone {
     }
 
     /**
-     * »ñÈ¡
+     * è·å–
      * @return price
      */
     public double getPrice() {
@@ -46,7 +46,7 @@ public class Phone {
     }
 
     /**
-     * ÉèÖÃ
+     * è®¾ç½®
      * @param price
      */
     public void setPrice(double price) {
