@@ -1,4 +1,4 @@
-package day12.upuserSystem;
+package day12.upStudentSystem;
 
 public class user {
     private String name;
